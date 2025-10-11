@@ -1,0 +1,58 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36 Edg/140.0.0.0" version="28.2.5">
+  <diagram name="第 1 页" id="OOoe-fkHs82ZqaMIFGsV">
+    <mxGraphModel dx="778" dy="460" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="CCpfBT7JZawS7kUpSJvd-1" value="&lt;pre style=&quot;font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; font-size-adjust: none; font-kerning: auto; font-optical-sizing: auto; font-feature-settings: normal; font-variation-settings: normal; font-variant-position: normal; font-variant-emoji: normal; font-stretch: normal; font-size: 13px; line-height: 22px; font-family: Menlo, Monaco, &amp;quot;Cascadia Mono&amp;quot;, Consolas, &amp;quot;Ubuntu Mono&amp;quot;, &amp;quot;DejaVu Sans Mono&amp;quot;, &amp;quot;Liberation Mono&amp;quot;, &amp;quot;JetBrains Mono&amp;quot;, &amp;quot;Fira Code&amp;quot;, Cousine, &amp;quot;Roboto Mono&amp;quot;, &amp;quot;Courier New&amp;quot;, Courier, sans-serif, system-ui; overflow: auto; text-wrap-mode: wrap; word-break: break-all; padding: 16px; color: rgb(15, 17, 21); text-align: start; margin: 0px !important;&quot;&gt;Student &lt;/pre&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="60" y="60" width="260" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="CCpfBT7JZawS7kUpSJvd-2" value="-studentId: String&lt;br&gt;-name: String&lt;br&gt; -department: String&lt;br&gt;-maxBorrowCount: int&lt;br&gt;-borrowedBooks: List" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="60" y="110" width="260" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="CCpfBT7JZawS7kUpSJvd-4" value="+borrowBook()&lt;br&gt;+returnBook()&lt;br&gt; +getBorrowedBooks()&lt;br&gt;+canBorrowMore()" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="60" y="190" width="260" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="CCpfBT7JZawS7kUpSJvd-7" value="&lt;pre style=&quot;font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; font-size-adjust: none; font-kerning: auto; font-optical-sizing: auto; font-feature-settings: normal; font-variation-settings: normal; font-variant-position: normal; font-variant-emoji: normal; font-stretch: normal; font-size: 13px; font-family: Menlo, Monaco, &amp;quot;Cascadia Mono&amp;quot;, Consolas, &amp;quot;Ubuntu Mono&amp;quot;, &amp;quot;DejaVu Sans Mono&amp;quot;, &amp;quot;Liberation Mono&amp;quot;, &amp;quot;JetBrains Mono&amp;quot;, &amp;quot;Fira Code&amp;quot;, Cousine, &amp;quot;Roboto Mono&amp;quot;, &amp;quot;Courier New&amp;quot;, Courier, sans-serif, system-ui; overflow: auto; text-wrap-mode: wrap; word-break: break-all; padding: 16px; color: rgb(15, 17, 21); text-align: start; margin: 0px !important; line-height: 100%;&quot;&gt;Book &lt;/pre&gt;" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="380" y="60" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="CCpfBT7JZawS7kUpSJvd-9" value="-bookId: String&#xa;-title: String&#xa;-author: String&#xa;-isbn: String &#xa;-isAvailable: boolean&#xa;-borrowDate: Date&#xa;-dueDate: Date" style="whiteSpace=wrap;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="380" y="110" width="120" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="CCpfBT7JZawS7kUpSJvd-10" value="+updateStatus()&#xa;+isOverdue()&#xa;+getBookInfo() " style="rounded=0;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="380" y="230" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="CCpfBT7JZawS7kUpSJvd-12" value="" style="endArrow=none;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="CCpfBT7JZawS7kUpSJvd-4" target="CCpfBT7JZawS7kUpSJvd-10">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="380" y="230" as="sourcePoint" />
+            <mxPoint x="430" y="180" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="190" y="360" />
+              <mxPoint x="440" y="360" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CCpfBT7JZawS7kUpSJvd-13" value="&lt;pre style=&quot;font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; font-size-adjust: none; font-kerning: auto; font-optical-sizing: auto; font-feature-settings: normal; font-variation-settings: normal; font-variant-position: normal; font-variant-emoji: normal; font-stretch: normal; font-size: 13px; line-height: 22px; font-family: Menlo, Monaco, &amp;quot;Cascadia Mono&amp;quot;, Consolas, &amp;quot;Ubuntu Mono&amp;quot;, &amp;quot;DejaVu Sans Mono&amp;quot;, &amp;quot;Liberation Mono&amp;quot;, &amp;quot;JetBrains Mono&amp;quot;, &amp;quot;Fira Code&amp;quot;, Cousine, &amp;quot;Roboto Mono&amp;quot;, &amp;quot;Courier New&amp;quot;, Courier, sans-serif, system-ui; overflow: auto; text-wrap-mode: wrap; word-break: break-all; padding: 16px; color: rgb(15, 17, 21); text-align: start; margin: 0px !important;&quot;&gt;Librarian&lt;/pre&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="580" y="70" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="CCpfBT7JZawS7kUpSJvd-14" value="-librarianId: String&#xa;-name: String&#xa;-workId: String" style="rounded=0;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="580" y="120" width="120" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="CCpfBT7JZawS7kUpSJvd-15" value="+processBorrow()&#xa;+processReturn()&#xa;+addBook()&#xa;+removeBook() &#xa;+searchBooks()" style="rounded=0;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="580" y="230" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="CCpfBT7JZawS7kUpSJvd-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=1;exitDx=0;exitDy=0;entryX=0.567;entryY=1.008;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="CCpfBT7JZawS7kUpSJvd-10" target="CCpfBT7JZawS7kUpSJvd-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="CCpfBT7JZawS7kUpSJvd-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.578;entryY=0.033;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="CCpfBT7JZawS7kUpSJvd-1" target="CCpfBT7JZawS7kUpSJvd-13">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="190" y="40" />
+              <mxPoint x="649" y="40" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
